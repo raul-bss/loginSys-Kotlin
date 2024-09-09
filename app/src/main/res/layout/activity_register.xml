@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#624E88"
+
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/campoNomeCompleto"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nome Completo"
+        android:padding="20dp"
+        android:textSize="24dp"
+        android:layout_marginBottom="16dp"
+        android:background="#CB80AB"
+
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+    <EditText
+        android:id="@+id/campoUsuario"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:padding="20dp"
+        android:textSize="24dp"
+        android:layout_marginBottom="16dp"
+        android:background="#CB80AB"
+        android:layout_below="@id/campoNomeCompleto"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <EditText
+        android:id="@+id/campoSenha"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_below="@id/campoUsuario"
+        android:padding="20dp"
+        android:textSize="24dp"
+        android:layout_marginBottom="16dp"
+        android:background="#CB80AB"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <EditText
+        android:id="@+id/campoEmail"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_below="@id/campoSenha"
+        android:padding="20dp"
+        android:textSize="24dp"
+        android:layout_marginBottom="16dp"
+        android:background="#CB80AB"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <Button
+
+        android:id="@+id/btnCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/campoEmail"
+        android:layout_centerHorizontal="true"
+        android:background="#E6D9A2"
+        android:layout_marginTop="50dp"
+
+
+
+        android:text="Register"
+        android:textSize="24dp"
+
+        />
+
+    <TextView
+        android:id="@+id/logIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/btnCadastrar"
+
+        android:textSize="24dp"
+        android:text="Login Here"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="20dp"
+
+
+
+
+        />
+
+
+
+
+
+
+
+
+</RelativeLayout>
